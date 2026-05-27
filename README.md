@@ -27,7 +27,7 @@ This program was built for a very plug-and-play experience. Here is exactly what
 
 2. Once it does find a ```world``` folder, it will then go ahead and check to see if you have a ```backups``` folder already. Don't worry if you do not have one yet, if the program does not find a ```backups``` folder it will create one itself. All of your backups from now on will go into the ```backups``` folder.
 
-3. Once checks are complete, it will then simply calculate the size of your world and then copy it into the ```backups``` folder. This may take a minute depending on the size of your world. The backup copy in ```backups``` will always be named according to the time and date that you made the backup. It is always in this format: ```backup_YYYY-MM-DD_hh-mm-ss```*. This ensures that the most recent backup is always at the bottom of your list of backups (if your folders are sorted alphabetically).
+3. Once checks are complete, it will then simply calculate the size of your world to show you how big it is. It will then compress it to a .ZIP archive and put the newly created backup in the ```backups``` folder. This may take a minute depending on the size of your world, but a progress bar can show you where in the process it is at. The backup .ZIP archive in ```backups``` will always be named according to the time and date that you made the backup. It is always in this format: ```backup_YYYY-MM-DD_hh-mm-ss```*. This ensures that the most recent backup is always at the bottom of your list of backups (if your folders are sorted alphabetically).
 
 *```Y``` is the year, ```M``` is the month, ```D``` is the day, ```h``` is the hour, ```m``` is the minute, and ```s``` is the second
 
